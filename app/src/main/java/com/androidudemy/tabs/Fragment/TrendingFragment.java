@@ -12,10 +12,10 @@ import com.androidudemy.tabs.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link TredingFragment#newInstance} factory method to
+ * Use the {@link TrendingFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TredingFragment extends Fragment {
+public class TrendingFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class TredingFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public TredingFragment() {
+    public TrendingFragment() {
         // Required empty public constructor
     }
 
@@ -39,8 +39,8 @@ public class TredingFragment extends Fragment {
      * @return A new instance of fragment TredingFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static TredingFragment newInstance(String param1, String param2) {
-        TredingFragment fragment = new TredingFragment();
+    public static TrendingFragment newInstance(String param1, String param2) {
+        TrendingFragment fragment = new TrendingFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
